@@ -1,0 +1,28 @@
+//Escritos
+
+.escritos{
+    @include texto($textMd, 2em, $white)
+}
+
+.textWhite{
+    color: $white;
+}
+
+.textBlack{
+    color: $black;
+}
+
+//Libros
+
+div{
+    div{
+        section{
+            p{
+                color: $black;
+            }
+            h5{
+                color: $black;
+            }
+        }
+    }
+}

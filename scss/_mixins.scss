@@ -1,0 +1,9 @@
+    //Mixins
+
+    @mixin texto($size, $interlineado, $color){
+        font-family: $principalFont;
+        font-size: $size;
+        line-height: $interlineado;
+        color: $color;
+        padding: 3px;
+    }

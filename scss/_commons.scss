@@ -1,0 +1,79 @@
+//Reset
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5{
+        font-family: $principalFont;
+        color: $white;
+    }
+
+    p{
+        font-family: $secundariaFont;
+        color: $white;
+    }
+
+    //background
+
+    .bgFondo{
+        background-color: $black;
+    }
+
+    .bgGradient{
+        background: rgb(73,70,70);
+        background: linear-gradient(180deg, rgba(73,70,70,0.7290266448376226) 0%, rgba(236,235,235,1) 100%, rgba(233,233,233,1) 100%);
+    }
+    
+    .bgGradient2{
+        background: rgb(0,0,0);
+        background: linear-gradient(0deg, rgba(0,0,0,0.8578781854538691) 0%, rgba(255,255,255,1) 100%);
+    }
+    
+    .bgGradient3{
+        background: rgb(73,70,70);
+        background: radial-gradient(circle, rgba(73,70,70,0.7290266448376226) 0%, rgba(236,235,235,1) 100%, rgba(233,233,233,1) 100%);
+    }
+    
+    .colorFooter{
+        background-color: #f1f1f1;
+    }
+    
+    .colorFooter2{
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+    
+    .colorLi{
+        background-color: rgba(242, 231, 231, 0.2);
+    }
+
+    //Display fex
+
+    .imagenEscritos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100px;
+        float: left;
+        margin-bottom: 2%;
+        margin-right: 2%;
+        margin-top: 2%;
+    }
+    
+    .imagenBiografia{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+        float: left;
+        margin-bottom: 2%;
+        margin-right: 2%;
+        margin-top: 1%;
+    }
+    

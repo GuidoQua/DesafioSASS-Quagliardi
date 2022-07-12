@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto&display=swap");
+.escritoPrincipal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.biografia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Open Sans", sans-serif;
+  color: #F5F0F0; }
+
+p {
+  font-family: "Roboto", sans-serif;
+  color: #F5F0F0; }
+
+.bgFondo {
+  background-color: #242222; }
+
+.bgGradient {
+  background: #494646;
+  background: linear-gradient(180deg, rgba(73, 70, 70, 0.729027) 0%, #ecebeb 100%, #e9e9e9 100%); }
+
+.bgGradient2 {
+  background: black;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.857878) 0%, white 100%); }
+
+.bgGradient3 {
+  background: #494646;
+  background: radial-gradient(circle, rgba(73, 70, 70, 0.729027) 0%, #ecebeb 100%, #e9e9e9 100%); }
+
+.colorFooter {
+  background-color: #f1f1f1; }
+
+.colorFooter2 {
+  background-color: rgba(0, 0, 0, 0.2); }
+
+.colorLi {
+  background-color: rgba(242, 231, 231, 0.2); }
+
+.imagenEscritos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  float: left;
+  margin-bottom: 2%;
+  margin-right: 2%;
+  margin-top: 2%; }
+
+.imagenBiografia {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  float: left;
+  margin-bottom: 2%;
+  margin-right: 2%;
+  margin-top: 1%; }
+
+.escritos {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  line-height: 2em;
+  color: #F5F0F0;
+  padding: 3px; }
+
+.textWhite {
+  color: #F5F0F0; }
+
+.textBlack {
+  color: #242222; }
+
+div div section p {
+  color: #242222; }
+
+div div section h5 {
+  color: #242222; }
+
+.scale:hover {
+  transform: scaleX(1.05);
+  cursor: pointer;
+  transition: 3s; }
+
+.scaleFooter:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+  transition: 2s; }
+
+link {
+  margin: 2rem 1.5rem;
+  display: flex;
+  justify-content: space-evenly; }
+
+.link a {
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #333;
+  font-size: 1.5rem;
+  position: relative; }
+  .link a:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background: #3d3d3d;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform 0.2s ease-in-out; }
+  .link a:hover:after {
+    transform-origin: left;
+    transform: scaleX(1); }
+
+div p.one:first-letter {
+  font-size: 3rem;
+  font-weight: 900; }
+
+@media (min-width: 280px) and (max-width: 302px) {
+  nav img {
+    width: 150px; } }
