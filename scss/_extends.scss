@@ -1,0 +1,23 @@
+//Extends
+
+.btn-general{
+    width: 150px;
+    height: 30px;
+    background: linear-gradient(to bottom, rgb(59, 60, 59), rgb(154, 151, 151) );
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $black;
+    font-weight: $bold;
+    &:hover{
+        background-color: rgb(79, 82, 79);
+        color: $white;
+    }
+}
+
+.btn-compra{
+    @extend .btn-general;
+    text-decoration: none;
+    width: 100%;
+}

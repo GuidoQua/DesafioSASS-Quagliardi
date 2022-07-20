@@ -6,7 +6,10 @@
     box-sizing: border-box;
 }
 
-    h1,
+    h1{
+        @include titulos ($textXl, $bold, $white)
+}
+
     h2,
     h3,
     h4,
@@ -76,4 +79,3 @@
         margin-right: 2%;
         margin-top: 1%;
     }
-    

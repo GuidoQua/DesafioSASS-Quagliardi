@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto&display=swap");
+.bordeTop {
+  border-top: 3px solid white;
+  padding-top: 2%; }
+
 .escritoPrincipal {
   display: flex;
   flex-direction: column;
@@ -12,12 +16,39 @@
   justify-content: center;
   width: 100%; }
 
+.bgFondo {
+  background-color: #F5F0F0; }
+
+.btn-general, .btn-compra {
+  width: 150px;
+  height: 30px;
+  background: linear-gradient(to bottom, #3b3c3b, #9a9797);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #242222;
+  font-weight: 600; }
+  .btn-general:hover, .btn-compra:hover {
+    background-color: #4f524f;
+    color: #F5F0F0; }
+
+.btn-compra {
+  text-decoration: none;
+  width: 100%; }
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box; }
 
-h1,
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 3em;
+  font-weight: 600;
+  color: #F5F0F0;
+  padding: 1%; }
+
 h2,
 h3,
 h4,
@@ -74,11 +105,11 @@ p {
   margin-top: 1%; }
 
 .escritos {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1em;
   line-height: 2em;
   color: #F5F0F0;
-  padding: 3px; }
+  padding: 5%; }
 
 .textWhite {
   color: #F5F0F0; }
@@ -92,6 +123,10 @@ div div section p {
 div div section h5 {
   color: #242222; }
 
+.imagenLibros {
+  width: 300px;
+  height: 500px; }
+
 .scale:hover {
   transform: scaleX(1.05);
   cursor: pointer;
@@ -99,6 +134,7 @@ div div section h5 {
 
 .scaleFooter:hover {
   transform: scale(1.3);
+  border-color: #242222;
   cursor: pointer;
   transition: 2s; }
 
@@ -133,6 +169,6 @@ div p.one:first-letter {
   font-size: 3rem;
   font-weight: 900; }
 
-@media (min-width: 280px) and (max-width: 302px) {
+@media (min-width: 280px) and (max-width: 375px) {
   nav img {
-    width: 150px; } }
+    width: 170px; } }

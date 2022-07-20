@@ -1,9 +1,29 @@
     //Mixins
 
     @mixin texto($size, $interlineado, $color){
-        font-family: $principalFont;
+        font-family: $secundariaFont;
         font-size: $size;
         line-height: $interlineado;
         color: $color;
-        padding: 3px;
+        padding: 5%;
+    }
+
+    @mixin titulos($size, $weight, $color) {
+        font-family: $principalFont;
+        font-size: $size;
+        font-weight: $weight;
+        color: $color;
+        padding: 1%;
+    }
+
+    //Maps
+
+    $paleta:(
+        'uno':$white,
+        'dos':$black,
+        'tres':$aqua,
+    );
+
+    .bgFondo{
+        background-color: map-get($paleta, uno);
     }
