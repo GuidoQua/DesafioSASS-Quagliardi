@@ -1,0 +1,69 @@
+//Index
+
+.bordeTop{
+    border-top: 3px solid white;
+    padding-top: 2%;
+}
+
+//Escritos
+
+.escritos{
+    @include texto($textMd, 2em, $white)
+}
+
+
+.fondoTitle{
+    @include fondoPages(url(../img/headerescritos.webp))
+}
+
+//Libros
+
+div{
+    div{
+        section{
+            p{
+                color: $black;
+            }
+            h5{
+                color: $black;
+            }
+        }
+    }
+}
+
+.imagenLibros{
+    width: 300px;
+    height: 500px;
+}
+
+.fondoLibros{
+    background-image: url(../img/icons8-pila-de-libros-32.png);
+}
+
+.fondoLibros2{
+    @include fondoPages(url(../img/libros.webp))
+}
+
+//Contacto
+
+.fondoContac{
+    @include fondoPages(url(../img/contactos1.webp))
+}
+
+.textWhite{
+    color: $white;
+}
+
+
+//Biografia
+
+.fondoBio{
+    @include fondoPages(url(../img/fondobio.webp))
+}
+
+//Error 404
+
+.imgError{
+    width: 100vw;
+    height: 100vh;
+}

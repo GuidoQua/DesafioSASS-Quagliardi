@@ -21,3 +21,11 @@
     text-decoration: none;
     width: 100%;
 }
+
+.btn-error{
+    @extend .btn-compra;
+    width: 30%;
+    border:2px solid rgb(164, 33, 38);
+    color: rgb(164, 33, 38);
+    background: $white;
+}

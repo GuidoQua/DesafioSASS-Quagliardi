@@ -8,6 +8,15 @@
     }
 }
 
+.scaleBio{
+    &:hover{
+        transform: scale(1.03);
+        background: $black;
+        cursor: pointer;
+        transition: 3s;
+    }
+}
+
 .scaleFooter{
     &:hover{
         transform: scale(1.3);

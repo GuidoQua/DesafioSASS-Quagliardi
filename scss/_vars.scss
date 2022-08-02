@@ -1,5 +1,28 @@
 //variables globales
 
+//Color
+
 $white:#F5F0F0;
 $black:#242222;
-$aqua:#81d6cf
+$navBar: radial-gradient(circle, rgba(73,70,70,0.7290266448376226) 0%, rgba(236,235,235,1) 100%, rgba(233,233,233,1) 100%);
+$footerOne: linear-gradient(180deg, rgba(73,70,70,0.7290266448376226) 0%, rgba(236,235,235,1) 100%, rgba(233,233,233,1) 100%);
+$footerTwo:rgba(0, 0, 0, 0.2);
+$cardOne: rgba(242, 231, 231, 0.2);
+$cardTwo: rgba(242, 231, 231, 0.051);
+
+//Fonts
+
+$principalFont: 'Open Sans', sans-serif;
+$secundariaFont: 'Roboto', sans-serif;
+
+//Size
+$textSm:.8em;
+$textMd:1em;
+$textLg:2em;
+$textXl:3em;
+
+//Weight
+$boldXl:800;
+$bold:600;
+$regular:400;
+$light:300;

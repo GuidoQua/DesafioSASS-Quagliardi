@@ -21,13 +21,14 @@
     </head>
 <body class="bgFondo">
 
+<div class="fondoContac">
 <!-- inicia la NAV -->
 <nav class="navbar navbar-expand-lg navbar-light fs-4 bgGradient3 sticky-top">
     <div class="container-fluid">
         <a class="navbar-brand" href="../index.html">
             <img class="logo" src="../img/logo.svg" alt="Logo de Camila Malumbres - Libros y escritos - Autora - Los que no piden permiso">
         </a>
-        <button class="bgGradient2 navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -52,12 +53,13 @@
 <header>
     <h1 class="my-3 text-center">Contacto</h1>
 </header>
+</div>
 
 <main>
     <section>
         <div class="container-fluid"> <!--Inicia container-->
             <div class="d-flex justify-content-center row textWhite">
-                <form class="m-3 col-md-6">
+                <form class="m-3 col-sm-12 col-md-5">
                     <div class="mb-3">
                         <label for="nombre" class="form-label">Nombre y Apellido:</label>
                         <input type="text" class="form-control" id="nombre" placeholder="Guido Quagliardi">
@@ -80,6 +82,18 @@
                     </div>
                     <button type="submit" class="btn-general">Enviar</button>
                 </form>
+            
+                <section class="col-sm-12 col-md-5 flexBox colorCont">
+                    <div>
+                        <a class="textWhite" href="mailto:malumbres9@gmail.com" target="_blank">malumbres9@gmail.com</a>
+                    </div>
+                    <div>
+                        <a class="textWhite" href="https://www.instagram.com/camila.malumbres/?hl=es" target="_blank">Instagam/camila.malumbres</a>
+                    </div>
+                    <div>
+                        <a class="textWhite" href="https://ar.linkedin.com/in/camila-malumbres-774b37209" target="_blank">Linkedin/Camila-Malumbres</a>
+                    </div>
+                </section>
             </div>
         </div> <!--End container-->
     </section>
@@ -109,7 +123,11 @@
     </div>
     <!-- Grid container -->
     <!-- Copyright -->
-    <div class="text-center text-dark p-3 colorFooter2"> © 2022 Camila Malumbres. All Rights Reserved.
+    <div class="text-center p-3 colorFooter2">
+        <section>
+            <p>© 2022 Camila Malumbres. All Rights Reserved.</p>
+            <p>Diseno Web: Guido Quagliardi</p>
+        </section>
     </div>
     <!-- Copyright -->
     </footer>
