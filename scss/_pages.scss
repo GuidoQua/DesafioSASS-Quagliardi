@@ -37,7 +37,7 @@ div{
 }
 
 .fondoLibros{
-    background-image: url(../img/icons8-pila-de-libros-32.png);
+    background-image: url(../img/iconoLibros.png);
 }
 
 .fondoLibros2{
@@ -66,4 +66,19 @@ div{
 .imgError{
     width: 100vw;
     height: 100vh;
+}
+
+.colorError{
+    p{
+        color: $redError;
+        font-size: $textMd;
+        font-weight: $bold;
+        line-height: 1em;
+        background: rgb(220, 220, 220);
+    }
+}
+
+.fondoError{
+    background: $black;
+    background-image: url(../img/error.png);
 }

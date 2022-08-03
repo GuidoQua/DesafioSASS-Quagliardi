@@ -18,7 +18,7 @@
   width: 100%; }
 
 .btn-error {
-  width: 30%;
+  width: 50%;
   border: 2px solid #a42126;
   color: #a42126;
   background: #F5F0F0; }
@@ -134,7 +134,7 @@ div div section h5 {
   height: 500px; }
 
 .fondoLibros {
-  background-image: url(../img/icons8-pila-de-libros-32.png); }
+  background-image: url(../img/iconoLibros.png); }
 
 .fondoLibros2 {
   background-repeat: round;
@@ -157,6 +157,17 @@ div div section h5 {
 .imgError {
   width: 100vw;
   height: 100vh; }
+
+.colorError p {
+  color: #a42126;
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 1em;
+  background: gainsboro; }
+
+.fondoError {
+  background: #242222;
+  background-image: url(../img/error.png); }
 
 .scale:hover {
   transform: scaleX(1.05);

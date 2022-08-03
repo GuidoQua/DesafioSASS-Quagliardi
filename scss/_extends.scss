@@ -24,8 +24,8 @@
 
 .btn-error{
     @extend .btn-compra;
-    width: 30%;
-    border:2px solid rgb(164, 33, 38);
-    color: rgb(164, 33, 38);
+    width: 50%;
+    border:2px solid $redError;
+    color: $redError;
     background: $white;
 }
